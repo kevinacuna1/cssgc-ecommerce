@@ -21,6 +21,11 @@ a {
     margin: 0 auto;
 }
 
+img {
+    max-width: 100%; /* Si la imagen es más grande que su contenedor, se adapta */
+    display: block; /* Elimina el espacio blanco debajo de la imagen */
+}
+
 /** Header y Navegación */
 .nombre-sitio {
     margin-top: 50px;
@@ -47,4 +52,28 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
+}
+
+/** Categorías de Productos */
+.categorias h2 {
+    text-align: center;
+}
+
+.categoria a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.categoria a:hover {
+    background-color: #037bc0;
+    color: #fff;
+    border-bottom-right-radius: 10px;
+}
+
+.listado-navegacion {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
