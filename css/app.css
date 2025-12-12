@@ -114,3 +114,23 @@ img {
     background-repeat: no-repeat;
     background-size: 100%, 100rem;
 }
+
+/* .sobre-nosotros-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 8rem;
+}
+
+.texto-nosotros {
+    grid-column: 2 / 3;
+} */
+
+.sobre-nosotros-grid {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.texto-nosotros {
+    flex-basis: 50%;
+    padding-left: 8rem;
+}
