@@ -50,6 +50,11 @@ img {
     display: block; /* Elimina el espacio blanco debajo de la imagen */
 }
 
+/** Utilidades */
+.text-center {
+    text-align: center;
+}
+
 /** Header y Navegación */
 .nombre-sitio {
     margin-top: 5rem;
@@ -133,4 +138,35 @@ img {
 .texto-nosotros {
     flex-basis: 50%;
     padding-left: 8rem;
+}
+
+/* Listado de Productos */
+.contenido-principal {
+    padding-top: 5rem;
+}
+
+.producto {
+    background-color: #037bc0;
+}
+
+.texto-producto {
+    text-align: center;
+    color: #fff;
+}
+
+.texto-producto h3 {
+    margin: 0;
+}
+
+.texto-producto p {
+    margin: 0 0 .5rem 0;
+}
+
+.texto-producto .precio {
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+
+.texto-producto a {
+    color: #fff;
 }
