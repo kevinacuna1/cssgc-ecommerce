@@ -267,3 +267,20 @@ img {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
+
+/* .site-footer .grid-footer div #navegacion a {
+    color: red;
+}
+
+.site-footer a {
+    color: red;
+} */
+
+.footer-menu a {
+    display: block;
+}
+
+.copyright {
+    margin-top: 5rem;
+    text-align: center;
+}
