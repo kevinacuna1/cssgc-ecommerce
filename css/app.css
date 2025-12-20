@@ -105,6 +105,7 @@ img {
 /** Categorías de Productos */
 .categorias {
     padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .categorias h2 {
@@ -319,8 +320,6 @@ img {
 
 .entrada:last-of-type {
     border: none;
-    margin: 0;
-    padding: 0;
 }
 
 .entrada-meta {
@@ -334,4 +333,9 @@ img {
 
 .entrada-meta span {
     color: #037bc0;
+}
+
+.contenido-entrada-blog {
+    width: 60rem;
+    margin: 0 auto;
 }
