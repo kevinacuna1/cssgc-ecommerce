@@ -34,10 +34,27 @@
     <h2 class="text-center">Contacto</h2>
 
     <form>
-      <div class="campo-formulario">
-        <label for="nombre">Nombre: </label>
-        <input type="text" id="nombre" placeholder="Tu Nombre" />
+
+      <fieldset> <!-- Agrupa elementos relacionados en un formulario -->
+        <legend>Tus Datos</legend>
+        <div class="campo">
+          <label for="nombre">Nombre: </label>
+          <input type="text" id="nombre" placeholder="Tu Nombre" /> <!-- readonly  required -->
+        </div>
+        
+        <div class="campo">
+          <label for="asunto">Asunto: </label>
+          <input type="text" id="asunto" placeholder="Asunto" />
+        </fieldset>
       </div>
+
+      <fieldset>
+        <legend>País</legend>
+      </fieldset>
+
+      <fieldset>
+        <legend>Información Extra</legend>
+      </fieldset>
     </form>
   </main>
 
