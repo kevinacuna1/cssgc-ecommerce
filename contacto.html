@@ -93,6 +93,18 @@
           <label for="proveedor">Proveedor </label>
           <input type="radio" name="tipo" id="proveedor" value="proveedor" /> <!-- type="checkbox" checked-->
         </div>
+
+        <div class="campo">
+          <label for="categoria">Categoria de Interés</label>
+          <input list="categorias" name="categoria" id="categoria" />
+          <datalist id="categorias">
+            <option value="Cocina">
+            <option value="Exterior">
+            <option value="Recamaras">
+            <option value="Oficina">
+            <option value="Televisión">
+          </datalist>
+        </div>
       </fieldset>
     </form>
   </main>
