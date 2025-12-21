@@ -57,16 +57,6 @@
           <input type="tel" id="telefono" placeholder="Tu Teléfono" />
         </div>
 
-        <!-- <div class="campo">
-          <label for="fecha">Fecha: </label>
-          <input type="date" id="fecha" placeholder="Tu Fecha" /> min max type="time" type="datetime-local"
-        </div> -->
-
-        <!-- <div class="campo">
-          <label for="archivo">Archivo: </label>
-          <input type="file" id="archivo" />
-        </div> -->
-
         <div class="campo">
           <label for="mensaje">Mensaje: </label>
           <textarea id="mensaje" rows="20" cols="20"></textarea>
@@ -75,6 +65,20 @@
 
       <fieldset>
         <legend>País</legend>
+
+        <div class="campo">
+          <label for="pais">País: </label>
+          <select id="pais">
+            <option value="">--Selecciona--</option>
+            <option value="MX">México</option>
+            <option value="PE">Perú</option>
+            <option value="CO">Colombia</option>
+            <option value="AR">Argentina</option>
+            <option value="ES">España</option>
+            <option value="CL">Chile</option>
+            <option value="UY">Uruguay</option> <!-- selected -->
+          </select>
+        </div>
       </fieldset>
 
       <fieldset>
